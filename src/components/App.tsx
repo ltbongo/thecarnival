@@ -2,7 +2,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Featured from './Featured'
-// import '../assets/images/islandthemepodium.jpg'
+import Podium from '../assets/images/islandthemepodium.jpg'
 
 const navigation = [
   { name: 'Game', href: '#' },
@@ -164,8 +164,8 @@ function App() {
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
             className="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="src\assets\images\islandthemepodium.jpg"
-            alt="src\assets\images\islandthemepodium.jpg"
+            src={Podium}
+            alt=""
           />
         </div>
       </div>
