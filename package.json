@@ -16,6 +16,8 @@
     "lint": "eslint src --max-warnings=0"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.1",
+    "@heroicons/react": "^1.0.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
