@@ -3,6 +3,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Featured from './Featured'
 import Podium from '../assets/images/islandthemepodium.jpg'
+import Matilda from '../assets/images/matildaconceptv1.png'
 
 const navigation = [
   { name: 'Game', href: '#' },
@@ -174,25 +175,13 @@ function App() {
       </div>
       <div className="grid grid-flow-col auto-cols-max justify-center place-items-center">
         <div className="p-2">
-          <img
-            className="w-auto h-60"
-            src="src\assets\images\matildaconceptv1.png"
-            alt="src\assets\images\matildaconceptv1"
-          />
+          <img className="w-auto h-60" src={Matilda} alt="" />
         </div>
         <div className="p-2">
-          <img
-            className="w-auto h-60"
-            src="src\assets\images\matildaconceptv1.png"
-            alt="src\assets\images\matildaconceptv1"
-          />
+          <img className="w-auto h-60" src={Matilda} alt="" />
         </div>
         <div className="p-2">
-          <img
-            className="w-auto h-60"
-            src="src\assets\images\matildaconceptv1.png"
-            alt="src\assets\images\matildaconceptv1"
-          />
+          <img className="w-auto h-60" src={Matilda} alt="" />
         </div>
       </div>
     </>
