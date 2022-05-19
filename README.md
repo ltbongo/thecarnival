@@ -1,75 +1,66 @@
-# Vite React Express Boilerplate
+# React Tailwindcss Boilerplate build with Vite
 
-> Quickly bootstrap a new project with Vite React Express Boilerplate.
+This is a [ReactJS](https://reactjs.org) + [Vite](https://vitejs.dev) boilerplate to be used with [Tailwindcss](https://tailwindcss.com).
 
-This boilerplate is a fork of [lmachens/vite-boilerplate](https://github.com/lmachens/vite-boilerplate), but replaces TypeScript with JavaScript and removes Storybook.
+## What is inside?
 
-This boilerplate contains all the tools you need to build a modern web app with JavaScript, React, Vite, and Express.  
-You can use it to quickly bootstrap your project.
+This project uses many tools like:
 
-ESLint, stylelint, prettier, husky and lintstaged are configured to give you a solid development experience.
+- [ReactJS](https://reactjs.org)
+- [Vite](https://vitejs.dev)
+- [TypeScript](https://www.typescriptlang.org)
+- [Jest](https://jestjs.io)
+- [Testing Library](https://testing-library.com)
+- [Tailwindcss](https://tailwindcss.com)
+- [Eslint](https://eslint.org)
+- [Prettier](https://prettier.io)
 
-## Installing / Developing
+## Getting Started
 
-First, [create a repository from this template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template).
+### Install
 
-Now you are ready to go:
+Create the project.
 
-```shell
+```bash
+npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+```
+
+Access the project directory.
+
+```bash
+cd my-app
+```
+
+Install dependencies.
+
+```bash
 npm install
 ```
 
-This will install the dependencies required to run the boilerplate.
+Serve with hot reload at http://localhost:3000.
 
-```shell
+```bash
 npm run dev
 ```
 
-Boom! These scripts run your server and client in development mode.
+### Lint
 
-The default PORTS are:
-
-- `3001` for the server
-- `3000` for the client
-
-If you don't like to call all scripts at once, you can also run:
-
-```shell
-npm run server:dev
-npm run client:dev
+```bash
+npm run lint
 ```
 
-You can configure the server port by setting the `PORT` environment variable. Creating a `.env` file is supported. You can copy `.env.example` to `.env`.
+### Build
 
-| KEY  | VALUE                                                         |
-| ---- | ------------------------------------------------------------- |
-| PORT | (Optional) Port for the server environment (defaults to 3001) |
-
-## Building
-
-To build the project, run:
-
-```shell
+```bash
 npm run build
 ```
 
-This will build the client and server.
+### Test
 
-```shell
-npm start
+```bash
+npm run test
 ```
 
-In production, you have a single server serving everything.
+## License
 
-`/api/*` is the API endpoint.  
-`/*` is the client.
-
-## Tests
-
-A test runner is not installed (right now). But ESLint and Prettier are checked on commit and pushed thanks to husky and lintstaged.
-
-## Licensing
-
-MIT
-
-test to see
+This project is licensed under the MIT License.
