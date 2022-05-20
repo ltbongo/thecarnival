@@ -8,27 +8,27 @@ import {
 
 const features = [
   {
-    name: 'Competitive exchange rates',
+    name: 'Competitive GamePlay',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Join the lobby and choose to play one game or up to 10 exciting games per round and claim your place in history in the world’s first ever massive multiplayer online total skill-based game (MMOSBG).',
     icon: GlobeAltIcon
   },
   {
-    name: 'No hidden fees',
+    name: 'Free to Learn',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'A gaming experience to test yourself against the rest or possibly against your biggest rival.. you.',
     icon: ScaleIcon
   },
   {
-    name: 'Transfers are instant',
+    name: 'Play 2 Earn',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'This is a new era of e-sports as you wager your skills against others at your level to earn items, stable coins, crypto currency, nfts and more. ',
     icon: LightningBoltIcon
   },
   {
-    name: 'Mobile notifications',
+    name: 'Build Your Character',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      ' Place on the leader board with a winning position and represent yourself on the podium with beautifully customisable avatars, gear, pets, titles and much more as the others try and workout where they went wrong.',
     icon: AnnotationIcon
   }
 ]
@@ -38,15 +38,15 @@ export default function Featured() {
     <div className="py-12 bg-white">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
-            Transactions
-          </h2>
           <p className="mt-2 text-3xl font-extrabold tracking-tight leading-8 text-gray-900 sm:text-4xl">
-            A better way to send money
+            A better way to test your skills and PLAY 2 EARN
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            Just about anyone can play as each game only takes a few minutes to
+            learn but a whole lot more to master.Unlock bonus levels and mystery
+            features that can go either way as you compete with yourself or 10,
+            100 and even up to 1,000 simultaneous players as the clock counts
+            down to Victory or Shame.
           </p>
         </div>
 

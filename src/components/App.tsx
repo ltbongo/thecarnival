@@ -174,7 +174,19 @@ function App() {
         </div>
       </div>
       <div>
-        <YoutubeEmbed embedId="rokGy0huYEA" />
+        <p className="mt-2 text-7xl font-extrabold tracking-tight leading-8 text-center text-gray-900 sm:text-4xl">
+          Pre-sale starts on Friday the 12th of July.
+        </p>
+        <p className="mt-2 text-7xl font-extrabold tracking-tight leading-8 text-center text-gray-900 sm:text-4xl">
+          So get your bonus coins and limited edition items and meet us soon at
+          ‘The Carnival’.
+        </p>
+        <p className="mt-2 text-7xl font-extrabold tracking-tight leading-8 text-center text-gray-900 sm:text-4xl">
+          Its gona be one hellova ride!
+        </p>
+      </div>
+      <div>
+        <YoutubeEmbed embedId="HbxnzAmdcOc" />
       </div>
       <div>
         <Featured />
