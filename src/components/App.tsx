@@ -4,6 +4,9 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Featured from './Featured'
 import Podium from '../assets/images/islandthemepodium.jpg'
 import Matilda from '../assets/images/matildaconceptv1.png'
+import ProcessCarousel from './ProcessCarousel'
+import YoutubeEmbed from './YoutubeEmbed'
+import '../styles.css'
 
 const navigation = [
   { name: 'Game', href: '#' },
@@ -171,17 +174,25 @@ function App() {
         </div>
       </div>
       <div>
+        <YoutubeEmbed embedId="rokGy0huYEA" />
+      </div>
+      <div>
         <Featured />
       </div>
       <div className="grid grid-flow-col auto-cols-max justify-center place-items-center">
         <div className="p-2">
-          <img className="w-auto h-60" src={Matilda} alt="" />
+          <img className="w-auto h-60 rounded-md" src={Matilda} alt="" />
         </div>
         <div className="p-2">
-          <img className="w-auto h-60" src={Matilda} alt="" />
+          <img className="w-auto h-60 rounded-md" src={Matilda} alt="" />
         </div>
         <div className="p-2">
-          <img className="w-auto h-60" src={Matilda} alt="" />
+          <img className="w-auto h-60 rounded-md" src={Matilda} alt="" />
+        </div>
+      </div>
+      <div className="justify-center place-items-center">
+        <div className=" py-3 px-10 2xl:container 2xl:px-0 2xl:mx-auto">
+          <ProcessCarousel />
         </div>
       </div>
     </>
