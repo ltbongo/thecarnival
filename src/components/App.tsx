@@ -173,16 +173,16 @@ function App() {
           />
         </div>
       </div>
-      <div>
-        <p className="mt-2 text-7xl font-extrabold tracking-tight leading-8 text-center text-gray-900 sm:text-4xl">
-          Pre-sale starts on Friday the 12th of July.
+      <div className="bg-gray-900">
+        <p className="mt-2 text-7xl font-extrabold tracking-tight leading-8 text-center text-indigo-600 sm:text-4xl">
+          Pre-sale starts on Friday the 12th of July 2022.
         </p>
-        <p className="mt-2 text-7xl font-extrabold tracking-tight leading-8 text-center text-gray-900 sm:text-4xl">
+        <p className="mt-2 text-7xl font-extrabold tracking-tight leading-8 text-center text-gray-100 sm:text-4xl">
           So get your bonus coins and limited edition items and meet us soon at
           ‘The Carnival’.
         </p>
-        <p className="mt-2 text-7xl font-extrabold tracking-tight leading-8 text-center text-gray-900 sm:text-4xl">
-          Its gona be one hellova ride!
+        <p className="pb-4 mt-2 text-7xl font-extrabold tracking-tight leading-8 text-center text-gray-100 sm:text-4xl">
+          Its gonna be one hellova ride!
         </p>
       </div>
       <div>

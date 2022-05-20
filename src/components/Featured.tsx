@@ -39,14 +39,17 @@ export default function Featured() {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <p className="mt-2 text-3xl font-extrabold tracking-tight leading-8 text-gray-900 sm:text-4xl">
-            A better way to test your skills and PLAY 2 EARN
+            A better way to UNLEASH your skills and PLAY 2 EARN
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
             Just about anyone can play as each game only takes a few minutes to
             learn but a whole lot more to master.Unlock bonus levels and mystery
             features that can go either way as you compete with yourself or 10,
             100 and even up to 1,000 simultaneous players as the clock counts
-            down to Victory or Shame.
+            down to.......
+          </p>
+          <p className="mt-4 max-w-2xl text-xl font-extrabold text-red-500 lg:mx-auto">
+            Victory or Shame.
           </p>
         </div>
 
